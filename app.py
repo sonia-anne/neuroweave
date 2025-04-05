@@ -20,9 +20,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
---- Header ---
-
-st.image("https://cdn-icons-png.flaticon.com/512/3623/3623883.png", width=80) st.title("NEUROWEAVE: Scientific Visualization Dashboard") st.markdown("A powerful, visual and data-rich exploration of the global burden of hydrocephalus and how NEUROWEAVE proposes to change the future of neurosurgery.")
+# --- Header ---
+st.image("https://cdn-icons-png.flaticon.com/512/3623/3623883.png", width=80)
+st.title("NEUROWEAVE: Scientific Visualization Dashboard")
+st.markdown("A powerful, visual and data-rich exploration of the global burden of hydrocephalus and how NEUROWEAVE proposes to change the future of neurosurgery.")
 
 --- SECTION 1: Global Prevalence Data ---
 
