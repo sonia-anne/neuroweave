@@ -4,14 +4,11 @@ import plotly.graph_objects as go
 import plotly.express as px
 from PIL import Image
 
---- Page Configuration ---
-
+# --- Page Configuration ---
 st.set_page_config(page_title="NEUROWEAVE - Interactive Scientific Dashboard", layout="wide", page_icon="🧠")
 
---- Custom Styling ---
-
+# --- Custom Styling ---
 st.markdown("""
-
 <style>
     .main {
         background-color: #F4F9FD;
@@ -20,7 +17,8 @@ st.markdown("""
         padding: 2rem 2rem 2rem;
         font-family: 'Helvetica', sans-serif;
     }
-</style>""", unsafe_allow_html=True)
+</style>
+""", unsafe_allow_html=True)
 
 --- Header ---
 
