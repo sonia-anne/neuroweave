@@ -8,7 +8,6 @@ from PIL import Image
 st.set_page_config(page_title="NEUROWEAVE - Dynamic Scientific Dashboard", layout="wide", page_icon="🧠")
 
 st.markdown("""
-
 <style>
     .main {
         background-color: #E8F0FE;
@@ -17,11 +16,13 @@ st.markdown("""
         padding: 2rem 2rem 2rem;
         font-family: 'Helvetica', sans-serif;
     }
-</style>""", unsafe_allow_html=True)
+</style>
+""", unsafe_allow_html=True)
 
---- Header ---
-
-st.image("https://cdn-icons-png.flaticon.com/512/3623/3623883.png", width=80) st.title("NEUROWEAVE: Dynamic & Scientific Visualization") st.markdown("A visual, interactive and data-driven platform to understand the global impact of hydrocephalus and NEUROWEAVE’s innovative solution.")
+# --- Header ---
+st.image("https://cdn-icons-png.flaticon.com/512/3623/3623883.png", width=80)
+st.title("NEUROWEAVE: Dynamic & Scientific Visualization")
+st.markdown("A visual, interactive and data-driven platform to understand the global impact of hydrocephalus and NEUROWEAVE’s innovative solution.")
 
 --- Section 1: Global Prevalence with Advanced Tabs ---
 
