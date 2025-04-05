@@ -4,8 +4,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 from PIL import Image
 
---- Page Configuration ---
-
+# --- Page Configuration ---
 st.set_page_config(page_title="NEUROWEAVE - Dynamic Scientific Dashboard", layout="wide", page_icon="🧠")
 
 st.markdown("""
